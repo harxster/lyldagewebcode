@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<!-- Favicon  -->
+    <link rel="icon" href="logo.png">
+
+
+<head>
+  <style>
+
+    /* 全局样式 */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+
+    /* 导航栏样式 */
+.logo-left {
+  display: flex;
+  align-items: left; /* 垂直居中 */
+}
+ 
+.logo-text {
+  margin-right: 10px; /* 右边距，使得文字和图片之间有间隔 */
+}
+ 
+.logo-image img {
+  height: 30px; /* 或者其他期望的高度 */
+}
+ 
+.logo-text {
+  margin-right: 50px; }
+ 
+.logo-image img {
+  height: 40px; 
+}
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 25px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    /* 主内容区域样式 */
+   .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    /* 按钮样式 */
+    button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul>
+  <a class="navbar-brand logo-image" href=""><img src="logo.png" alt="left"></a>
+
+      <li><a href="index.html">首页</a></li>
+      <li><a href="news.html">游戏公告</a></li>
+      <li><a href="bans.html">封禁列表</a></li>
+      
+    </ul>
+  </nav>
+  <div class="container">
+    <h2>游戏公告</h2>
+    <p>9.28开服</p>
+  </div>
+</body>
+
+</html>
